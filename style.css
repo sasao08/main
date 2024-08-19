@@ -38,6 +38,7 @@ main {
     margin:0 auto
     }
 footer {
+    position: sticky;
     grid-area: footer;
     background-color: #333333;
     color: #FFFFFF;
