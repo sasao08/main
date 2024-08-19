@@ -11,6 +11,8 @@ body {
 }
 @media (min-width: 840px) {
     body {
+        min-height: 100vh;
+        display: grid;
         grid-template: 
             "header header header" 150px
             "...... ...... ......" 64px
