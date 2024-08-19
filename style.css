@@ -51,7 +51,7 @@ p {
     font-size: 20px;
 }
 .sasaki{
-    border: 5px solid skyblue;
+    border-bottom: 5px solid skyblue;
     font-size: 31px;
     font-weight: bold;
 }
