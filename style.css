@@ -14,7 +14,7 @@ body {
         grid-template: 
             "header header header" 150px
             "...... ...... ......" 64px
-            "...... main   ......" auto
+            "...... main   ......" 1fr
             "...... ...... ......" 64px
             "footer footer footer" 50px
             / auto  800px  auto;
@@ -38,7 +38,8 @@ main {
     margin:0 auto
     }
 footer {
-    position: sticky;
+    /* position: fixed;
+    bottom: 0; */
     grid-area: footer;
     background-color: #333333;
     color: #FFFFFF;
