@@ -1,6 +1,7 @@
 body {
     min-height: 100vh;
-    display: grid;
+    display: flex;
+    flex-flow: column;
     grid-template:
         "header header header" 150px
         "...... ...... ......" 32px
@@ -40,6 +41,7 @@ main {
     margin:0 auto
     }
 footer {
+    margin-top: auto;
     grid-area: footer;
     background-color: #333333;
     color: #FFFFFF;
