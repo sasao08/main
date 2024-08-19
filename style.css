@@ -13,7 +13,8 @@ body {
 @media (min-width: 840px) {
     body {
         min-height: 100vh;
-        display: grid;
+        display: flex;
+        flex-flow: column;
         grid-template: 
             "header header header" 150px
             "...... ...... ......" 64px
